@@ -444,7 +444,7 @@ rpot-<ip>-<utc>[-sanitised].zip
 └── MANIFEST.txt        Digests, the query used to cut the capture, handling notes
 ```
 
-![Evidence report](docs/img/report-3pages.png)
+![Evidence report](images/report-3pages.png)
 
 Because the manifest carries the exact expression, tag and UTC window used to cut
 the capture, plus the PCAP's own SHA256, anyone I send it to can re-run the query
