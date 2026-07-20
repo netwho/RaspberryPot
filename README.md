@@ -142,7 +142,7 @@ rpot-<ip>-<utc>[-sanitised].zip
 
 ![Evidence report](images/report-3pages.png)
 
-Format reference: **[docs/EVIDENCE-BUNDLE.md](docs/EVIDENCE-BUNDLE.md)**.
+Format reference: **[EVIDENCE-BUNDLE.md](EVIDENCE-BUNDLE.md)**.
 
 Two properties worth calling out:
 
