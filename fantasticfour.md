@@ -196,7 +196,7 @@ Open one and the detail panel shows what that attacker did: credentials,
 commands, files, HTTP paths, SQL, RDP and SMB activity, each in its own panel,
 with the Arkime integration in the same view.
 
-![Attacker detail](docs/img/console-attacker-detail.png)
+![Attacker detail](images/rppe-attacker-details.png)
 <!-- SCREENSHOT: detail panel with populated Credentials + Commands panels and
      the Arkime bar. Pick an attacker that ran commands. -->
 
