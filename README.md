@@ -12,7 +12,7 @@ Everything an attacker does is recorded twice: once as structured events — wha
 they typed, what they fetched, whether the login was accepted — and once as raw
 packets.
 
-![Console dashboard](docs/img/console-dashboard.png)
+![Console dashboard](images/rp-dash.png)
 <!-- SCREENSHOT: the dashboard on a busy day. Event counter, service breakdown,
      top attackers. This is the "why bother" picture — lead with volume. -->
 
