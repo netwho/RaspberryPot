@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/img/banner.png" alt="RaspberryPot — real attacks, real packets, shareable evidence" width="100%">
+  <img src="images/banner.png" alt="RaspberryPot — real attacks, real packets, shareable evidence" width="100%">
 </p>
 
 # RaspberryPot
