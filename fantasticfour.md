@@ -468,7 +468,7 @@ about the attack and simply read it: the credential crossing in clear text, the
 shell probes coming back rejected one after another, the `wget` going out, the
 marker bytes echoing home.
 
-![Wireshark follow-stream](docs/img/wireshark-stream.png)
+![Wireshark follow-stream](images/ws-follow.png)
 <!-- SCREENSHOT: Follow TCP Stream on the telnet session. Red/blue stream view
      is instantly recognisable and shows the credential + commands inline.
      CHECK the sanitised addresses are the ones visible (192.0.2.x). -->
