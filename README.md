@@ -226,7 +226,7 @@ useful input I get.
 ## Read more
 
 - **[fantasticfour.md](fantasticfour.md)** — the full analysis walkthrough: one real attack from noise to shareable indicators, using the honeypot, Arkime, Wireshark and MISP together
-- **[docs/EVIDENCE-BUNDLE.md](EVIDENCE-BUNDLE.md)** — bundle format reference
+- **[EVIDENCE-BUNDLE.md](EVIDENCE-BUNDLE.md)** — bundle format reference
 - **[Evidence_Packs/README.md](Evidence_Packs/)** — published evidence packs
 
 ---
