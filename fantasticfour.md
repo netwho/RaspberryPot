@@ -502,7 +502,7 @@ speaks from. They survive the attacker changing address, so they correlate where
 an IP list would not. Every bundle carries them when Arkime's JA4+ plugin has
 seen the session.
 
-![MISP event](docs/img/misp-event.png)
+![MISP event](images/Misp.png)
 <!-- SCREENSHOT: the imported event in MISP with objects expanded. -->
 
 The console produces a MISP core-format JSON file. I import it; MISP does the
