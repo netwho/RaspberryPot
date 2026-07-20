@@ -38,13 +38,15 @@ matter inside a two-terabyte lake. Most of the engineering in this project is
 about that second problem, not the first.
 
 The full write-up of how that gets solved — honeypot, Arkime, Wireshark and
-MISP working together — is in **[fantasticfour.md](fantasticfour.md)**.
+MISP working together — is found here:
+
+**[fantasticfour.md](fantasticfour.md)**.
 
 ---
 
 ## Architecture
 
-![Architecture](docs/img/architecture.png)
+![Architecture](images/architecture.png)
 
 Two Raspberry Pis and a capture appliance, split by trust:
 
@@ -87,7 +89,7 @@ Four million events is not a dataset, it is a haystack. The console exists to
 make one session findable, and it offers several routes to the same place —
 because "interesting" means something different depending on what you are doing.
 
-![Attacker list](docs/img/console-attackers.png)
+![Attacker list](images/rp-attacker.png)
 <!-- SCREENSHOT: the attacker list, sorted, with filters visible. -->
 
 - **Live log** — everything as it lands, filterable by service and event type. Good for watching a campaign start.
@@ -96,7 +98,7 @@ because "interesting" means something different depending on what you are doing.
 - **Map view** — attacks plotted by origin, sized by volume. Good for triage by instinct: the biggest circle attached to the noisiest service is usually worth a look.
 - **Session list** — every TCP session, classified by *what it actually contained*: did commands run, was a payload fetched, or was it just a probe?
 
-![Session activity tiers](docs/img/console-sessions.png)
+![Session activity tiers](images/rp-sessions.png)
 <!-- SCREENSHOT: the session list with the activity column visible — the
      content / payload / auth / probe badges. Best single picture of the
      triage problem: mostly hollow circles, a few filled. -->
@@ -110,7 +112,7 @@ Open one and the detail panel shows what that attacker did — credentials,
 commands, files, HTTP paths, SQL, RDP and SMB activity — with the packet-capture
 integration in the same view.
 
-![Attacker detail](docs/img/console-attacker-detail.png)
+![Attacker detail](images/rp-attacker-details.png)
 <!-- SCREENSHOT: attacker detail with the Arkime bar and the activity panels.
      Pick an attacker with commands so the panels are populated. -->
 
@@ -138,7 +140,7 @@ rpot-<ip>-<utc>[-sanitised].zip
 └── MANIFEST.txt        Digests, the query used to cut the capture, handling notes
 ```
 
-![Evidence report](docs/img/report-3pages.png)
+![Evidence report](images/report-3pages.png)
 
 Format reference: **[docs/EVIDENCE-BUNDLE.md](docs/EVIDENCE-BUNDLE.md)**.
 
