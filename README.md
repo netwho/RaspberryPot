@@ -226,8 +226,8 @@ useful input I get.
 ## Read more
 
 - **[fantasticfour.md](fantasticfour.md)** — the full analysis walkthrough: one real attack from noise to shareable indicators, using the honeypot, Arkime, Wireshark and MISP together
-- **[docs/EVIDENCE-BUNDLE.md](docs/EVIDENCE-BUNDLE.md)** — bundle format reference
-- **[reports/](reports/)** — published evidence packs
+- **[docs/EVIDENCE-BUNDLE.md](EVIDENCE-BUNDLE.md)** — bundle format reference
+- **[Evidence_Packs/README.md](Evidence_Packs/)** — published evidence packs
 
 ---
 
@@ -246,19 +246,4 @@ Issues and discussions are open. If you use a capture for teaching or research I
 would like to hear about it — not as a condition, just because it is the most
 useful feedback I get.
 
-<!-- ────────────────────────────────────────────────────────────────────────
-     SCREENSHOTS TO TAKE  (docs/img/)
 
-     console-dashboard.png       Dashboard on a busy day — volume up front
-     console-attackers.png       Attacker list, sorted, filters visible
-     console-sessions.png        Session list with the activity tier column
-     console-attacker-detail.png Detail panel: activity panels + Arkime bar
-     console-map.png             Map view — optional, referenced in prose only
-     console-live-log.png        Live log — optional, referenced in prose only
-
-     Already in place: architecture.png, report-3pages.png
-
-     BEFORE PUBLISHING ANY SCREENSHOT: check for the sensor's own IP/hostname,
-     the Arkime host, and any worker ID. The bundle sanitiser does not cover
-     screenshots.
-     ──────────────────────────────────────────────────────────────────────── -->
