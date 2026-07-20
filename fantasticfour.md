@@ -528,7 +528,7 @@ already built by people better at it than me.
 
 ### Want to get your feet wet?
 
-Three evidence packs are published in **[`/reports`](reports/)**. They are real
+Three evidence packs are published in **[`/Evidence_Packs`](Evidence_Packs/)**. They are real
 traffic from a live sensor, sanitised, and self-contained — no account, no
 platform, no signup.
 
@@ -546,7 +546,7 @@ platform, no signup.
 **The three packs**
 
 **1 · Telnet — IoT malware dropper**
-[`rpot-42_232_28_201-20260719T165926Z-sanitised.zip`](reports/rpot-42_232_28_201-20260719T165926Z-sanitised.zip)
+[`rpot-42_232_28_201-20260719T165926Z-sanitised.zip`](Evidence_Packs/rpot-42_232_28_201-20260719T165926Z-sanitised.zip)
 *China Unicom · one session · 8 seconds · 7.6 KB PCAP*
 
 The actor from the case study above, caught again later the same day. Login
@@ -560,7 +560,7 @@ hours. That contrast is the entire argument for sharing hashes and fingerprints
 rather than addresses, and you can see both halves of it in the published data.
 
 **2 · HTTP — `.env` secret harvester**
-[`rpot-80_94_95_211-20260719T170716Z-sanitised.zip`](reports/rpot-80_94_95_211-20260719T170716Z-sanitised.zip)
+[`rpot-80_94_95_211-20260719T170716Z-sanitised.zip`](Evidence_Packs/rpot-80_94_95_211-20260719T170716Z-sanitised.zip)
 *Romania, AS204428 SS-Net · multi-session · 88 KB PCAP · AbuseIPDB 100*
 
 No logins, no commands — pure HTTP enumeration. 55 unique paths, every one a
@@ -573,7 +573,7 @@ This one carries a **JA4H** fingerprint, which is the interesting part: the path
 list is trivially changed, the way its HTTP client orders headers is not.
 
 **3 · RDP — research scanner**
-[`rpot-66_228_35_180-20260719T170945Z-sanitised.zip`](reports/rpot-66_228_35_180-20260719T170945Z-sanitised.zip)
+[`rpot-66_228_35_180-20260719T170945Z-sanitised.zip`](Evidence_Packs/rpot-66_228_35_180-20260719T170945Z-sanitised.zip)
 *Akamai Connected Cloud · one session · 11 seconds · 2.6 KB PCAP*
 
 rDNS `prod-beryllium-us-east-59.li.binaryedge.ninja` — internet-wide research
@@ -592,25 +592,3 @@ even better. The components are all free, the hardware is a Pi and a small
 appliance, and the internet supplies the test data for you, continuously, whether
 you asked for it or not.
 
-If you are looking for professionals in networking and security — or want to
-build these skills yourself — have a look at **#anyweb** and **#anywebtraining**.
-
-<!-- ────────────────────────────────────────────────────────────────────────
-     SCREENSHOTS REFERENCED BY THIS DOCUMENT  (docs/img/)
-
-     console-live-log.png        Live log mid-flow, filter chips visible
-     console-events.png          Event list filtered to one event type
-     console-attackers.png       Attacker list sorted by volume
-     console-map.png             Map with one dominant circle on telnet
-     console-sessions.png        Session list with the Activity tier column
-     console-attacker-detail.png Detail panel: activity panels + Arkime bar
-     wireshark-stream.png        Follow TCP Stream on the telnet session
-     misp-event.png              Imported event in MISP, objects expanded
-
-     Already in place: banner.png, architecture.png, report-3pages.png
-
-     BEFORE PUBLISHING ANY SCREENSHOT: check for the sensor's own IP/hostname,
-     the Arkime host, and any worker ID. The bundle sanitiser does not cover
-     screenshots. For the Wireshark shot, use a capture from a SANITISED bundle
-     so the visible addresses are already 192.0.2.x.
-     ──────────────────────────────────────────────────────────────────────── -->
