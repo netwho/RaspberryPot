@@ -120,7 +120,7 @@ interesting engineering turned out to be almost entirely in the **handoffs**:
 carrying a session identity from one tool into the next without losing it, and
 without a human retyping an IP address into a search box.
 
-![Architecture](docs/img/architecture.png)
+![Architecture](images/architecture.png)
 
 ---
 
