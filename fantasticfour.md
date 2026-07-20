@@ -139,7 +139,7 @@ Everything as it lands, filterable by service and event type. This is where you
 notice a campaign *starting*: a service that is normally quiet suddenly is not,
 or a credential pattern you have not seen before begins repeating.
 
-![Live log](docs/img/console-live-log.png)
+![Live log](images/rp-live.png)
 <!-- SCREENSHOT: live log mid-flow, filter chips visible. -->
 
 ### Event list — when you know what you are after
@@ -148,7 +148,7 @@ The full history, filterable and drillable by service, event type, time window
 and source. This is the analytical view: *show me every `ssh_download_attempt`
 this week*, then work backwards to who was responsible.
 
-![Event list](docs/img/console-events.png)
+![Event list](images/rp-event.png)
 <!-- SCREENSHOT: event list filtered to one event type, showing the drill path. -->
 
 ### Attacker list — who is loudest
@@ -157,7 +157,7 @@ One row per source address, with lifetime counters, geolocation, ASN and
 reputation score. Sortable by volume, by credentials tried, by whether anything
 was actually executed.
 
-![Attacker list](docs/img/console-attackers.png)
+![Attacker list](images/rp-attacker.png)
 <!-- SCREENSHOT: attacker list sorted by events, a couple of blocked rows in red. -->
 
 ### Map view — triage by instinct
@@ -167,7 +167,7 @@ mostly is, but it has one genuine use: it answers "what is unusual today?"
 faster than any query, because the human eye is very good at spotting the circle
 that was not there yesterday. The case below started exactly this way.
 
-![Map view](docs/img/console-map.png)
+![Map view](images/rp-map.png)
 <!-- SCREENSHOT: map with one dominant circle on the telnet service. -->
 
 ### Session list — what a session actually contained
@@ -182,7 +182,7 @@ volume but by **substance**:
 | ◐ | **auth** | Credentials were tried; nothing further happened. |
 | ○ | **probe** | Connected and left. |
 
-![Session activity tiers](docs/img/console-sessions.png)
+![Session activity tiers](images/rp-sessions.png)
 <!-- SCREENSHOT: session list with the Activity column — mostly hollow circles,
      a few filled. This is the single best picture of the triage problem. -->
 
